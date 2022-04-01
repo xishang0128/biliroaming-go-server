@@ -4,6 +4,7 @@
 - 域名（解析国内云服务器IP需备案）
 - golang
 - PostgreSQL
+- 宝塔面板（建议）
 - clash/v2ray/ssr（可选）
 - Nginx (可选)
 - Docker (推荐)
@@ -17,3 +18,4 @@ yum update -y && yum upgrade -y
 debian & Ubuntu
 apt update _y && apt upgrade -y
 ```
+2.安装必须的环境
