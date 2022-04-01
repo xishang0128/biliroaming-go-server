@@ -39,7 +39,15 @@ git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 ```
 2.修改 config.example.yml 文件名为 config.yml ，根据内容按需设置
 
-3..安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
+3.编译二进制文件
+- （可选）从 [release](https://github.com/JasonKhew96/biliroaming-go-server/releases)下载已编译二进制文件
+
+- 进入源码目录使用golang进行编译
+```
+cd biliroaming-go-server
+go build
+```
+4.安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 
 - 根据系统安装对应的PostgreSQL
 - 更改数据库默认用户的密码
