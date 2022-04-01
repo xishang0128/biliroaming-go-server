@@ -31,7 +31,7 @@ yum install git -y
 apt install git -y
 ```
 3.（可选）安装并设置 [宝塔操作面板](https://www.bt.cn/bbs/thread-79460-1-1.html)
-- 配置账户密码即可
+- 配置账户密码以及安全入口即可
 ## 正式开始
 1.安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 - 根据系统安装对应的PostgreSQL
