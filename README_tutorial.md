@@ -10,6 +10,7 @@
 - Docker (推荐)
 
 ## 准备工作
+- 以下请在root用户下执行，如不是root用户，请执行`sudo su`切换到root用户
 1.更新系统环境
 - centos
 ```
@@ -19,7 +20,16 @@ yum update -y
 ```
 apt update _y && apt upgrade -y
 ```
-2.安装并设置 [宝塔操作面板](https://www.bt.cn/bbs/thread-79460-1-1.html)
+2. 安装必要组件
+- centos
+```
+yum install git -y
+```
+- Ubuntu & debian
+```
+apt install git -y
+```
+3.（可选）安装并设置 [宝塔操作面板](https://www.bt.cn/bbs/thread-79460-1-1.html)
 - 配置账户密码即可
 ## 正式开始
 1.安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
