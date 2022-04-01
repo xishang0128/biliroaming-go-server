@@ -33,8 +33,13 @@ apt install git -y
 3.（可选）安装并设置 [宝塔操作面板](https://www.bt.cn/bbs/thread-79460-1-1.html)
 - 配置账户密码以及安全入口即可
 ## 正式开始
-1.安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
+1.拉取源码
+```
+git clone https://github.com/JasonKhew96/biliroaming-go-server.git
+```
+2.修改 config.example.yml 文件名为 config.yml ，根据内容按需设置
+
+3..安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
+
 - 根据系统安装对应的PostgreSQL
 - 更改数据库默认用户的密码
-
-2.修改 config.example.yml 文件名为 config.yml ，根据内容按需设置
