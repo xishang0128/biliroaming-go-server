@@ -13,9 +13,16 @@
 1.更新系统环境
 ```
 centos
-yum update -y && yum upgrade -y
+yum update -y
 
-debian & Ubuntu
+Ubuntu & debian
 apt update _y && apt upgrade -y
 ```
 2.安装必须的环境
+```
+centos
+yum install git -y
+
+Ubuntu & debian
+apt install git -y
+```
