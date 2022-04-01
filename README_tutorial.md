@@ -11,19 +11,22 @@
 
 ## 准备工作
 1.更新系统环境
-```
-centos
-yum update -y
 
+centos
+```
+yum update -y
+```
 Ubuntu & debian
+```
 apt update _y && apt upgrade -y
 ```
 2.安装必须的环境
-```
 centos
+```
 yum install epel-release -y
 yum install git golang -y
-
+```
 Ubuntu & debian
+```
 apt install git golang -y
 ```
