@@ -21,7 +21,7 @@ apt update _y && apt upgrade -y
 2.安装必须的环境
 ```
 centos
-yum install epel-release -you
+yum install epel-release -y
 yum install git golang -y
 
 Ubuntu & debian
