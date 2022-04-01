@@ -21,6 +21,7 @@ apt update _y && apt upgrade -y
 ```
 2.安装并设置 [宝塔操作面板](https://www.bt.cn/bbs/thread-79460-1-1.html)
 - 配置账户密码即可
+
 3.安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 - 根据系统安装对应的PostgreSQL
 - 更改数据库默认用户的密码
