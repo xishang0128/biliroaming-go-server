@@ -81,4 +81,12 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 ```
 2.更改数据库默认用户的密码
-
+- 切换到数据库用户
+```
+sudo -u postgres psql
+```
+- 修改密码，引号内是需要修改的密码
+```
+ALTER USER postgres WITH PASSWORD 'postgres';
+#命令最后有分号
+```
