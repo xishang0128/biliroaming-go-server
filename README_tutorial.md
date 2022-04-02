@@ -19,7 +19,7 @@ yum update -y
 ```
 - Ubuntu & debian
 ```
-apt update _y && apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 2. 安装必要组件
 - centos
@@ -42,6 +42,11 @@ git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 3.编译二进制文件
 - （可选）从 [release](releases)下载已编译二进制文件
 
+- 安装golang
+```
+wget -O go.tar.gz https://golang.google.com/dl/go1.18.linux-amd64.tar.gz
+tar -zxvf go1.tar.gz -C /usr/local/bin/
+```
 - 进入源码目录使用golang进行编译
 ```
 cd biliroaming-go-server
