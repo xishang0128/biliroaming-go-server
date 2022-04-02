@@ -44,8 +44,8 @@ git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 
 - 安装golang
 ```
-wget -O go.tar.gz https://golang.google.com/dl/go1.18.linux-amd64.tar.gz
-tar -zxvf go1.tar.gz -C /usr/local/bin/
+wget -O go.tar.gz https://go.dev/dl/go1.18.linux-amd64.tar.gz
+tar -zxvf go.tar.gz -C /usr/local/bin/
 ```
 - 进入源码目录使用golang进行编译
 ```
