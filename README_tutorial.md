@@ -102,4 +102,4 @@ sudo  passwd -d postgres
 ```
 sudo -u postgres passwd
 ```
-- 此时系统会提示输入新的密码，输入两次密码并回车即可
+- 此时系统会提示输入新的密码，输入两次密码并回车即可，输入时密码不显示，输入两次之后提示`passwd: password updated successfully`即修改成功
