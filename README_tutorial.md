@@ -19,7 +19,7 @@ yum update -y
 ```
 - Ubuntu & debian
 ```
-apt update -y && apt upgrade -y
+apt update && apt upgrade -y
 ```
 2. 安装必要组件
 - centos
