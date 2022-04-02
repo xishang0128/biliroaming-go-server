@@ -37,10 +37,10 @@ apt install git -y
 ```
 git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 ```
-2.修改 config.example.yml 文件名为 config.yml ，根据内容按需设置
+2.修改[config.example.yml](config.example.yml)文件名为 config.yml ，根据内容按需设置
 
 3.编译二进制文件
-- （可选）从 [release](https://github.com/JasonKhew96/biliroaming-go-server/releases)下载已编译二进制文件
+- （可选）从 [release](releases)下载已编译二进制文件
 
 - 进入源码目录使用golang进行编译
 ```
