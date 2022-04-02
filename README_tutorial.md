@@ -60,7 +60,8 @@ go build
 ### 修改[config.example.yml](config.example.yml)文件名为 config.yml ，根据内容按需设置
 - 可用宝塔面板直接重命名并编辑
 
-###安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
+### 安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 
-- 根据系统安装对应的PostgreSQL
-- 更改数据库默认用户的密码
+1.根据系统安装对应的PostgreSQL
+2.更改数据库默认用户的密码
+
