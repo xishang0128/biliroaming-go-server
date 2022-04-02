@@ -42,10 +42,18 @@ git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 3.编译二进制文件
 - （可选）从 [release](releases)下载已编译二进制文件
 
-- 安装golang
+- 下载golang
 ```
 wget -O go.tar.gz https://go.dev/dl/go1.18.linux-amd64.tar.gz
 tar -zxvf go.tar.gz -C /usr/local/bin/
+```
+- 配置golang环境
+```
+export GOROOT=/usr/local/bin/go
+export GOPATH=/home/golang
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
 ```
 - 进入源码目录使用golang进行编译
 ```
