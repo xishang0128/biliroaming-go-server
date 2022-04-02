@@ -3,8 +3,8 @@
 - 云服务器（1核心1G内存起步）
 - 域名（解析国内云服务器IP需备案）
 - PostgreSQL
+- golang
 - 宝塔面板（建议）
-- golang（可选）
 - clash/v2ray/ssr（可选）
 - Nginx (可选)
 - Docker (推荐)
