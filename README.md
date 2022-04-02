@@ -10,6 +10,9 @@
 ## Docker
 见 [JasonKhew96/biliroaming-go-server-docker](https://github.com/JasonKhew96/biliroaming-go-server-docker)
 
+## 手把手教学
+见 [手把手教你](README_tutorial.md)
+
 ## 使用方式
 1. 安装并启用 [PostgreSQL](https://www.postgresql.org/)
 2. 设置 `config.yml`，见 [config.example.yml](config.example.yml)
