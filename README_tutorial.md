@@ -11,9 +11,9 @@
 
 ## 准备工作
 - 以下请在root用户下执行，如不是root用户，请执行`sudo su`切换到root用户
-
+- centos请不要选择centos8，不受PostgreSQL支持
 1.更新系统环境
-- centos
+- centos7
 ```
 yum update -y
 ```
@@ -22,7 +22,7 @@ yum update -y
 apt update && apt upgrade -y
 ```
 2. 安装必要组件
-- centos
+- centos7
 ```
 yum install git -y
 ```
@@ -63,6 +63,20 @@ go build
 ### 安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 
 1.根据系统安装对应的PostgreSQL
-
+- centos7
+```
+sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+sudo yum install -y postgresql14-server
+sudo /usr/pgsql-14/bin/postgresql-14-setup initdb
+sudo systemctl enable postgresql-14
+sudo systemctl start postgresql-14
+```
+- Ubuntu & debian
+```
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+```
 2.更改数据库默认用户的密码
 
