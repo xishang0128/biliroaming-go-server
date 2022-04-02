@@ -4,9 +4,9 @@
 - 域名（解析国内云服务器IP需备案）
 - PostgreSQL
 - golang
+- Nginx
 - 宝塔面板（建议）
 - clash/v2ray/ssr（可选）
-- Nginx (可选)
 - Docker (推荐)
 
 ## 准备工作
