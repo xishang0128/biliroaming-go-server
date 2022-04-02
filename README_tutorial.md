@@ -63,5 +63,6 @@ go build
 ### 安装并启用 [PostgreSQL](https://www.postgresql.org/download/)
 
 1.根据系统安装对应的PostgreSQL
+
 2.更改数据库默认用户的密码
 
