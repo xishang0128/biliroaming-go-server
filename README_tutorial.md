@@ -11,7 +11,9 @@
 
 ## 准备工作
 - 以下请在root用户下执行，如不是root用户，请执行`sudo su`切换到root用户
-- centos请不要选择centos8，不受PostgreSQL支持
+
+centos请不要选择centos8，不受PostgreSQL支持
+
 1.更新系统环境
 - centos7
 ```
