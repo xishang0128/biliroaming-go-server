@@ -47,7 +47,7 @@ git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 wget -O go.tar.gz https://go.dev/dl/go1.18.linux-amd64.tar.gz
 tar -zxvf go.tar.gz -C /usr/local/bin/
 ```
-- 配置golang环境
+- 配置临时golang环境
 ```
 export GOROOT=/usr/local/bin/go
 export GOPATH=/home/golang
