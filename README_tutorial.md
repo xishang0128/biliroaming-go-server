@@ -85,8 +85,21 @@ sudo apt-get -y install postgresql
 ```
 sudo -u postgres psql
 ```
-- 修改密码，引号内是需要修改的密码
+- 修改密码，引号内是需要修改的密码，可根据喜好修改，命令最后有分号
 ```
 ALTER USER postgres WITH PASSWORD 'postgres';
-#命令最后有分号
 ```
+- 退出PostgreSQL
+```
+\q
+```
+3.修改linux系统postgres用户的密码
+- 删除用户postgres的密码
+```
+sudo  passwd -d postgres
+```
+- 设置用户postgres的密码
+```
+sudo -u postgres passwd
+```
+- 此时系统会提示输入新的密码，输入两次密码并回车即可
