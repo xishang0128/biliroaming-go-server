@@ -38,8 +38,8 @@ apt install git -y
 git clone https://github.com/JasonKhew96/biliroaming-go-server.git
 ```
 ### 修改[config.example.yml](config.example.yml)文件名为 config.yml ，根据内容按需设置
-
-###编译二进制文件
+- 可用宝塔面板直接重命名并编辑
+### 编译二进制文件
 
 - 下载golang
 ```
