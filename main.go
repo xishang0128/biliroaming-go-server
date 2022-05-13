@@ -18,8 +18,8 @@ import (
 
 const (
 	MAJOR    = "2"
-	MINOR    = "10"
-	REVISION = "0"
+	MINOR    = "12"
+	REVISION = "3"
 
 	VERSION = "v" + MAJOR + "." + MINOR + "." + REVISION
 
@@ -38,6 +38,7 @@ type biliArgs struct {
 	page      int
 	qn        int
 	aType     int
+	fnval     int
 }
 
 type accessKey struct {
@@ -331,6 +332,10 @@ func (b *BiliroamingGo) processArgs(args *fasthttp.Args) *biliArgs {
 	if err != nil || aType == 0 {
 		aType = 7
 	}
+	fnval, err := strconv.Atoi(string(args.Peek("fnval")))
+	if err != nil || fnval == 0 {
+		fnval = 4048
+	}
 
 	queryArgs := &biliArgs{
 		accessKey: string(args.Peek("access_key")),
@@ -343,6 +348,7 @@ func (b *BiliroamingGo) processArgs(args *fasthttp.Args) *biliArgs {
 		page:      page,
 		qn:        qn,
 		aType:     aType,
+		fnval:     fnval,
 	}
 
 	b.sugar.Debug("Request args ", args.String())
